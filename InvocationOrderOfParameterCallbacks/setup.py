@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='new',
+    name='InvocationOrderOfParameterCallbacks',
     version='1.0',
     py_modules=['cli'],
     include_package_data=True,
@@ -10,6 +10,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        clickInvocationOrder=cli:test
+        clickInvocationOrderOfParameterCallbacks=cli:test
     ''',
 )
